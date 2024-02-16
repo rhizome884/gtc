@@ -1,0 +1,73 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d (Conv2D)             (None, 1549, 126, 16)     160       
+                                                                 
+ batch_normalization (BatchN  (None, 1549, 126, 16)    64        
+ ormalization)                                                   
+                                                                 
+ leaky_re_lu (LeakyReLU)     (None, 1549, 126, 16)     0         
+                                                                 
+ max_pooling2d (MaxPooling2D  (None, 516, 42, 16)      0         
+ )                                                               
+                                                                 
+ conv2d_1 (Conv2D)           (None, 514, 40, 16)       2320      
+                                                                 
+ batch_normalization_1 (Batc  (None, 514, 40, 16)      64        
+ hNormalization)                                                 
+                                                                 
+ leaky_re_lu_1 (LeakyReLU)   (None, 514, 40, 16)       0         
+                                                                 
+ max_pooling2d_1 (MaxPooling  (None, 171, 13, 16)      0         
+ 2D)                                                             
+                                                                 
+ conv2d_2 (Conv2D)           (None, 169, 11, 16)       2320      
+                                                                 
+ batch_normalization_2 (Batc  (None, 169, 11, 16)      64        
+ hNormalization)                                                 
+                                                                 
+ leaky_re_lu_2 (LeakyReLU)   (None, 169, 11, 16)       0         
+                                                                 
+ max_pooling2d_2 (MaxPooling  (None, 56, 11, 16)       0         
+ 2D)                                                             
+                                                                 
+ conv2d_3 (Conv2D)           (None, 54, 9, 16)         2320      
+                                                                 
+ batch_normalization_3 (Batc  (None, 54, 9, 16)        64        
+ hNormalization)                                                 
+                                                                 
+ leaky_re_lu_3 (LeakyReLU)   (None, 54, 9, 16)         0         
+                                                                 
+ max_pooling2d_3 (MaxPooling  (None, 18, 9, 16)        0         
+ 2D)                                                             
+                                                                 
+ flatten (Flatten)           (None, 2592)              0         
+                                                                 
+ dropout (Dropout)           (None, 2592)              0         
+                                                                 
+ dense (Dense)               (None, 256)               663808    
+                                                                 
+ batch_normalization_4 (Batc  (None, 256)              1024      
+ hNormalization)                                                 
+                                                                 
+ leaky_re_lu_4 (LeakyReLU)   (None, 256)               0         
+                                                                 
+ dropout_1 (Dropout)         (None, 256)               0         
+                                                                 
+ dense_1 (Dense)             (None, 32)                8224      
+                                                                 
+ batch_normalization_5 (Batc  (None, 32)               128       
+ hNormalization)                                                 
+                                                                 
+ leaky_re_lu_5 (LeakyReLU)   (None, 32)                0         
+                                                                 
+ dropout_2 (Dropout)         (None, 32)                0         
+                                                                 
+ dense_2 (Dense)             (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 680,593
+Trainable params: 679,889
+Non-trainable params: 704
+_________________________________________________________________

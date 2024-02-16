@@ -1,0 +1,36 @@
+Train set
+x57543_DbGbDbGbBbDb_C0_The_Gallery_Clouds
+x57543_DGDGBD_C0_Marcie_StaS
+x75435_EBEG#BE_C0_Big_Yellow_Taxi_LotC
+x75435_EBEG#BE_C2_Cactus_Tree_StaS
+x75435_EBEG#BE_C0_Chelsea_Morning_Clouds
+x57543_DGDGBD_C2_Morning_Morgantown_LotC
+x75435_EBEG#BE_C2_Both_Sides_Now_Clouds
+x75435_DADF#AD_C5_Night_in_the_City_LaC47
+x57543_DGDGBD_C4_The_Circle_Game+Little_Green_1968PFF
+x57543_DGDGBD_C2_Morning_Morgantown_LaC47
+x75435_DADF#AD_C0_The_Pirate_of_Penance_StaS
+x75435_DADF#AD_C4_Cactus_Tree_LaC47
+x57543_DGDGBD_C0_Roses_Blue_Clouds
+x75435_DADF#AD_C5_Both_Sides_Now_1968PFF
+x75435_EBEG#BE_C3_Night_in_the_City_StaS
+x57543_DGDGBD_C0_Nathan_La_Franeer_StaS
+x75435_EBEG#BE_C2_Conversation_LotC
+x57543_DGDGBD_C4_The_Circle_Game_LotC
+x75435_DADF#AD_C0_Chelsea_Morning_1968PFF
+Test set
+x75435_DADF#AD_C1_YTMOIAR_FtR
+x57543_DGDGBD_C4_LG_Blue
+x57543_DGDGBD_C4_Electricity_FtR
+x75435_DADF#AD_C3_The_Gift_of_Magi_LaC47
+Test set 2 (multi-artist)
+x57543_DGDGBD_C0_Dan Fogelberg - Longer
+x57543_DGDGBD_C0_Gregg Allman - Come And Go Blues - 12_11_1981 - live - Music Vault
+x57543_DGDGBD_C0_In a Week Live at Kilkenny Castle Karen Cowley Hozier
+x57543_EBEABE_C0_Bastion Original Soundtrack - The Pantheon (Ain't Gonna Catch You)
+x75435_DADF#AD_C0_Mitski - Last Words of a Shooting Star
+x75435_DADF#AD_C0_Oscar Isaac, Marcus Mumford, Punch Brothers - Fare Thee Well
+x75435_DADF#AD_C3_Angus and Julia Stone - Santa Monica Dream
+x75435_DADF#AD_C4_Julie Byrne - Sleepwalker
+
+
