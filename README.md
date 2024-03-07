@@ -12,12 +12,12 @@ pip install tensorflow matplotlib scikit-learn seaborn
 
 Clone the repo and change directory:
 ```bash
-git clone https://github.com/rhizome884/dlfm24-reproducible.git
-cd dlfm24-reproducible
+git clone https://github.com/rhizome884/gtc.git 
+cd gtc
 ```
 
 ### Download Models and Datasets 
-The test sets and trained models used for evaluation of the 5-class chromagram system can be downloaded from [here](https://drive.google.com/drive/folders/1bs8kPQcPk3Mr6a4m1QlQVrEXbJ5ro7Mc?usp=drive_link). After the *test-sets* and *models* folders have been downloaded and unzipped, put both folders inside the *dlfm24-reproducible* directory. 
+The test sets and trained models used for evaluation of the 5-class chromagram system can be downloaded from [here](https://drive.google.com/drive/folders/1bs8kPQcPk3Mr6a4m1QlQVrEXbJ5ro7Mc?usp=drive_link). After the *test-sets* and *models* folders have been downloaded and unzipped, put both folders inside the *gtc* directory. 
 
 ### Evaluate Model
 Run model evaluation on synthetic data in your local environment:
