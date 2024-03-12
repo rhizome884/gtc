@@ -34,7 +34,7 @@ python eval_authentic_songs.py
 ```
 
 ## Model Training
-*Perform all of the steps in the Model Evaluation section before training a model*. The training procedure provided here is a simplified version of the procedure used to train the 5-class CNN on chromagram representations of synthetic guitar audio data. Once you have trained a model you can then test it using the code and synthetic/authentic guitar data provided in the Model Evaluation section. 
+*Perform all of the steps in the Model Evaluation section before training a model*. The training procedure provided here is a simplified version of the procedure used in the *Multiclass Study* (i.e., a 5-class CNN is trained on chromagram representations of synthetic guitar audio data). Once you have trained a model you can then test it using the code and synthetic/authentic guitar data provided in the Model Evaluation section. 
 
 ### Download the training data
 The dataset used to train a 5-class chromagram model can be downloaded from [here](https://drive.google.com/drive/folders/1bs8kPQcPk3Mr6a4m1QlQVrEXbJ5ro7Mc?usp=drive_link). After the *train-sets* folder has been downloaded and unzipped, put the folder inside the *gtc* directory.
