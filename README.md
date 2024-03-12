@@ -37,7 +37,7 @@ python eval_authentic_songs.py
 *Perform all of the steps in the Model Evaluation section before training a model*. The training procedure provided here is a simplified version of the procedure used to train the 5-class CNN on chromagram representations of synthetic guitar audio data. Once you have trained a model you can then test it using the code and synthetic/authentic guitar data provided in the Model Evaluation section. 
 
 ### Download the training data
-The dataset used to train a 5-class chromagram model can be downloaded from [here](https://drive.google.com/drive/folders/1bs8kPQcPk3Mr6a4m1QlQVrEXbJ5ro7Mc?usp=drive_link). After the *train-set* folder has been downloaded and unzipped, put the folder inside the *gtc* directory.
+The dataset used to train a 5-class chromagram model can be downloaded from [here](https://drive.google.com/drive/folders/1bs8kPQcPk3Mr6a4m1QlQVrEXbJ5ro7Mc?usp=drive_link). After the *train-sets* folder has been downloaded and unzipped, put the folder inside the *gtc* directory.
 
 ### Train Model
 Run model training on synthetic data in your local environment:
@@ -46,5 +46,5 @@ python train.py
 ```
 Once training has ended, a *model.h5* file should appear in your *gtc* repository.  
 
-### Evaluate Your Model
-The model will be tested automatically on the *test-synthetic.json* data after model training, and the accuracy score will be printed. However, if you wish to conduct a more detailed evaluation of the model, this can be done with the *eval_synthetic_songs.py* and/or the *eval_authentic_songs.py* file(s); please note, to do this you will need to comment out the *model_num* variable line, and change the *model_path* variable so that it reflects the path and filename of the model you intend to evaluate. 
+### Evaluate Your Trained Model
+The model will be tested automatically on the *test-synthetic.json* data after model training, and the accuracy score will be printed. However, if you wish to conduct a more detailed evaluation of the model, this can be done with the *eval_synthetic_songs.py* and/or the *eval_authentic_songs.py* file(s); please note, to do this you will need to comment out the *model_num* variable line, and change the *model_path* variable so that it reflects the path and filename of the model you intend to evaluate.  
