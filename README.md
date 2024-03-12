@@ -25,12 +25,12 @@ The test sets and trained models used for evaluation of the 5-class chromagram s
 ### Evaluate Model
 Run model evaluation on synthetic data in your local environment:
 ```bash
-python eval_synthetic_songs.py
+python3 eval_synthetic_songs.py
 ``` 
  
 Run model evaluation on authentic data in your local environment:
 ```bash
-python eval_authentic_songs.py
+python3 eval_authentic_songs.py
 ```
 
 ## Model Training
@@ -42,7 +42,7 @@ The dataset used to train a 5-class chromagram model can be downloaded from [her
 ### Train Model
 Run model training on synthetic data in your local environment:
 ```bash
-python train.py
+python3 train.py
 ```
 Once training has ended, a *model.h5* file should appear in your *gtc* repository.  
 
